@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+}
+.game-logo{
+    margin-top: 13px;
+    margin-right: 10px;
+    width: 86.041px;
+    height: 40px;
+}
+.logo{
+    display: flex;
+}
+
+.right-div{
+    /* margin-top: 10px; */
+}
+.youtube-img{
+    width: 33.916px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tiktok-img{
+    width: 24px;
+    height: 20px;
+}
+.nav-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px;
+}
+nav ul{
+    display: flex;
+    /* text-decoration: none; */
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 25px;
+    
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    background-image:url(images/group14.png);
+    background-size: 640px 100%;
+    background-repeat: no-repeat;
+    
+}
+.banner-img{
+    width: 450px;
+    height: 580px;
+}
+
+.We-are-gamer{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    padding: 50px 175px;
+
+}
+.We-are-gamer-img{
+    width: 100%;
+    /* height: 300px; */
+}
+.We-are-gamer-description{
+    width: 370px;
+}
+
+.Online-Games-heading{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.Online-Games-images{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 170px;
+}
+.Online-Games-images img{
+    height: 280px;
+    width: 220px;
+}
+.Online-Games-img-description{
+    width: 210px;
+}
+
+.Play-Instantly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 170px;
+}
+.Play-Instantly-description{
+    text-align: right;
+    margin-right: 250px;
+}
+.Play-Instantly-img{
+    height: 350px;
+    width: 350px;
+}
