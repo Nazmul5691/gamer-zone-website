@@ -233,6 +233,10 @@ nav ul li a{
 } 
  
 
+
+.footer{
+    height: 500px;
+}
 .footer-heading{
     display: flex;
     justify-content: center;
@@ -253,8 +257,31 @@ nav ul li a{
 .footer{
     background: #0B0223;
     color: white;
+
 }
 
 
+.footer-icons{
+    display: flex;
+
+}
+
+.footer-icons{
+    justify-content: center;
+    
+}
+.fa-brands {
+    padding: 30px;
+}
+
+.footer-item-2{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+}
+.footer-item-3{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+}
 
 
