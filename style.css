@@ -106,13 +106,135 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 170px;
+    padding-top: 80px;
+    /* padding-right: 3px; */
 }
 .Play-Instantly-description{
     text-align: right;
-    margin-right: 250px;
+    margin-right: 70px;
+    margin-left: 130px;
 }
 .Play-Instantly-img{
     height: 350px;
     width: 350px;
+    
+    padding-left: 190px;
 }
+
+
+.Play-game-online{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+.Play-game-online-description{
+    
+    
+    margin-right:115px;
+}
+.Play-game-online-img{
+    height: 350px;
+    width: 350px;
+    margin-left: 20px;
+
+}
+
+
+
+.Careers{
+    display: flex;
+    margin-top: 130px;
+    height: 450px;
+    padding:0px 170px 0px 165px;
+    justify-content: space-between;
+    background-image: url(images/group14.png);
+    background-repeat: no-repeat;
+    background-size: 1000px 100%;
+    background: #FF42A5;
+    /* background-position:left ; */
+    
+
+    
+}
+.careers-left-div{
+    padding-top: 50px;
+}
+
+.career-items ul li, .career-items-address ul li{
+    list-style: none;
+}
+.career-img{
+    height: 460px;
+    width: 575px;
+    /* margin-left: 150px; */
+}
+#career-data{
+    display: flex;
+    justify-content: space-between;
+}
+.Careers-description{
+    width: 600px;
+}
+.career-items-address{
+    text-align: right;
+}
+.carees-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #FFF;
+    margin-top: 30px;
+
+}
+
+
+
+
+.icons-section{
+    padding: 70px;
+    background-color: #FFF9FC;
+    
+}
+.icon-size{
+    height: 40px;
+}
+.icon{
+    display: flex;
+    /* padding: 15px; */
+    
+}
+.icons-1st-part, .icons-2nd-part{
+    display: flex;
+    
+}
+.icons-1st-part, .icons-2nd-part{
+    
+    justify-content: center;
+}
+.icon-description{
+    padding-left: 8px;
+}
+
+.icon:hover{
+    background: #FFF;
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.icon p{
+    
+}
+.icon{
+    width: 180px;
+    height: 30px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+    
+
+
+
+
