@@ -166,7 +166,7 @@ nav ul li a{
 }
 .career-img{
     height: 460px;
-    width: 575px;
+    width: 550px;
     /* margin-left: 150px; */
 }
 #career-data{
@@ -223,17 +223,37 @@ nav ul li a{
     cursor: pointer;
     
 }
-.icon p{
-    
-}
+
 .icon{
     width: 180px;
     height: 30px;
     padding-bottom: 17px;
     padding-left: 10px;
     padding-top: 5px;
-}
+} 
+ 
+
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
     
+
+}
+
+.footer-items ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;  
+    
+}
+.footer-items ul{
+    text-align: center;
+}
+.footer{
+    background: #0B0223;
+    color: white;
+}
 
 
 
