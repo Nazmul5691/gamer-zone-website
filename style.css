@@ -18,9 +18,25 @@ nav{
     display: flex;
 }
 
-.right-div{
-    /* margin-top: 10px; */
+.right-div ul{
+    align-items: center;
+    
 }
+.right-nav-div-a-class a{
+    text-decoration: none;
+}
+.right-nav-div{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    background-color: #E7E6E9;
+    /* margin: 3px 10px; */
+    padding: 0px 10px;
+    border-radius: 5px;
+
+}
+
+
 .youtube-img{
     width: 33.916px;
     height: 30px;
@@ -30,12 +46,9 @@ nav{
 .tiktok-img{
     width: 24px;
     height: 20px;
+    padding-bottom: 4px;
 }
-.nav-btn{
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    padding: 5px;
-}
+
 nav ul{
     display: flex;
     /* text-decoration: none; */
@@ -49,7 +62,13 @@ nav ul li a{
     padding: 25px;
     
 }
+.header-icon{
+    display: flex;
+}
 
+.banner-icon{
+    padding: 13px 5px 0px 0px;
+}
 .banner{
     display: flex;
     width: 100%;
@@ -113,13 +132,36 @@ nav ul li a{
     text-align: right;
     margin-right: 70px;
     margin-left: 130px;
+    margin-bottom: 200px;
+    
 }
 .Play-Instantly-img{
     height: 350px;
     width: 350px;
-    
+    /* border: 0px; */
     padding-left: 190px;
 }
+.Play-Instantly-img-img img{
+    height: 180px;
+    width: 160px;
+    border-radius: 5px;
+    margin: 0px;
+    padding-left: 90px;
+    position: relative;
+    bottom: 130px;
+}
+.Play-game-online-img-img img{
+    height: 180px;
+    width: 160px;
+    border-radius: 5px;
+    margin: 0px;
+    padding-left: 290px;
+    position: relative;
+    bottom: 130px;
+}
+
+
+
 
 
 .Play-game-online{
